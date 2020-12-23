@@ -113,6 +113,14 @@ img {
 }
 
 /* FOOTER */
-footer {
-    grid-area: footer;
+
+.footer {
+	grid-area: footer;
+	background: linear-gradient(135deg, #8844ee, #b07dfb);
+	padding: 30px;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
 }
