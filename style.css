@@ -17,7 +17,9 @@ a {
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
+	display: block;
+	border-radius: 5px;
 }
 
 /* GENERAL GRID */
@@ -93,14 +95,24 @@ img {
     background: #b07dfb;
 }
 
+/* CONTENT */
+
 .content {
     grid-area: content;
 }
 
-.advertisemnets {
-    grid-area: advertisemnets;
+/* ADVERTISEMENTS */
+
+.advertisements {
+    grid-area: advertisements;
+    background: #fafbfc;
+    display: grid;
+	align-content: start;
+	padding: 30px;
+	gap: 30px;
 }
 
+/* FOOTER */
 footer {
     grid-area: footer;
 }
